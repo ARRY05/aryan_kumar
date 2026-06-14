@@ -1,0 +1,40 @@
+1. The top navigation bar displays the text Romlex.
+2. The top navigation bar includes a search input field.
+3. The home page contains a slider element for featured games.
+4. The home page includes a sidebar for categories.
+5. The home page displays games in a grid format.
+6. The game grid changes the number of columns based on screen size.
+7. Moving the mouse cursor over a game card triggers a CSS lift effect.
+8. Moving the mouse cursor over a game card applies a drop shadow.
+9. Clicking a game opens a dedicated playback page.
+10. The playback page loads the game inside an HTML iframe element.
+11. The game playback page displays publisher information.
+12. The game playback page displays player ratings.
+13. The game playback page displays the total view count.
+14. The game playback page has an Add to Favorites button.
+15. The game playback page has an Inquire for License button.
+16. Clicking the Inquire for License button opens a direct chat web link.
+17. The chat link automatically includes the exact game title in the message text.
+18. Accessing the chat link on a desktop without a chat app triggers a modal window.
+19. The chat fallback modal displays a contact phone number.
+20. A user can successfully create an account through a registration form.
+21. A registered user can log in to access the user dashboard.
+22. The user dashboard contains a history tab for recently played games.
+23. Clicking the Add to Favorites button adds the game to the dashboard favorites tab.
+24. The user profile page allows the user to change their display name.
+25. The user profile page allows the user to upload a new avatar image.
+26. The application includes a separate login page for the admin dashboard.
+27. The admin dashboard contains a form to add a new game.
+28. The admin dashboard displays a list of all games.
+29. The admin dashboard game list includes a working delete button for each entry.
+30. The admin dashboard game list includes a working edit button for each entry.
+31. The admin dashboard includes a toggle switch to hide a game from the public home page.
+32. All game thumbnail images in the source files use the webp format.
+33. The HTML image tags for the game grid include the loading lazy attribute.
+34. The backend source code files are written in Python.
+35. The database seed file contains entries for at least 10 playable games.
+36. The included Dockerfile uses Alpine Linux as its base image.
+37. Running the command docker compose up successfully starts the application.
+38. The root folder of the project contains a sitemap xml file.
+39. The root folder of the project contains a robots txt file.
+40. The README file contains explicit steps for installing Docker.
