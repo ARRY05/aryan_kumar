@@ -1,5 +1,6 @@
 What I need:
 The application should be a responsive full stack portal with these main areas in order: Home Page, Game Playback View, User Dashboard, and Admin Panel.
+
 All token or license inquiries happen through direct chat integration. No payment gateway, no checkout system.
 
 1. Home Page and Grid Layout
@@ -8,7 +9,7 @@ All token or license inquiries happen through direct chat integration. No paymen
 * Category sidebar (Action, Puzzle, Strategy, etc.)
 * Main grid showing game cards
 * Layout: 4 to 5 cards per row on desktop, 2 per row on tablet, 1 per row on mobile
-* Subtle hover effect on game cards (lift and shadow)
+* Game card hover effects: CSS lift and drop shadow
 
 2. Game Playback View
 * Dedicated page that embeds the selected game in an iframe
@@ -30,16 +31,19 @@ All token or license inquiries happen through direct chat integration. No paymen
 
 5. Chat Integration (Only Inquiry Method)
 * Clicking the Inquire for License button opens a direct chat link (like wa.me)
-* The link must contain a pre filled message stating the exact game title and inquiry type
+* The link must contain a pre-filled message stating the exact game title and inquiry type
 * Desktop fallback modal with contact info if the chat application is not installed
 
 Animations:
-All animations should be lightweight and CSS based. Allowed tools:
+All animations should be lightweight and CSS based.
+
+Allowed tools:
 * Pure CSS animations and transitions
 * AOS library for fade in effects
+
 Required animations:
-* Game card hover lift and shadow
-* Hero slider smooth transitions
+* Game card hover lift and drop shadow
+* Hero slider CSS transitions
 * Sections fade in on scroll
 
 Accessibility:
@@ -56,7 +60,6 @@ Tech Stack and Quality:
 * Lighthouse performance score of at least 85
 * Tested on Chrome, Safari, Firefox, Edge
 * All images optimized as WebP, max 200KB per image, lazy loaded
-* Favicon included in standard sizes
 
 SEO Basics:
 * Page title and meta description
@@ -71,14 +74,14 @@ Accessibility Basics:
 
 Docker Setup:
 * Dockerfile based on Alpine (Nginx for static files, plus Python environment for backend)
-* docker compose yml
+* docker-compose.yml
 * One command startup: docker compose up
 * Default port 8080, README explains how to change it
 
 What you need to deliver:
-1. All application files in a clean folder structure
+1. Complete application files strictly organized into backend, frontend, and database folders inside a .zip archive
 2. Seed file for the database with sample data for at least 10 free demo games
-3. Dockerfile and docker compose yml
-4. Favicon files
+3. Dockerfile and docker-compose.yml
+4. Favicon files in .ico (16x16) and .png (32x32) formats
 5. sitemap.xml and robots.txt
-6. README md with setup, update, and deployment instructions
+6. README.md with setup, update, and deployment instructions
